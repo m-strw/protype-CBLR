@@ -11,9 +11,12 @@ import FeedScreen from './main/Feed'
 import ProfileScreen from './main/Profile'
 import { event } from 'react-native-reanimated';
 
-const EmptyScreen = () =>{
-    return(null)
-}
+// import AddScreen from './components/main/Add'
+
+
+// const EmptyScreen = () =>{
+//     return(null)
+// }
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -30,7 +33,7 @@ export class Main extends Component {
                       size = {26} />
                   )
               }} />
-                               <Tab.Screen name="AddContainer" component={EmptyScreen}
+                               <Tab.Screen name="AddScreen" component={AddScreen}
                     listeners={({ navigation }) => ({
                         tabPress: event => {
                             event.preventDefault();

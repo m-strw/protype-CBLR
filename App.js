@@ -19,7 +19,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 
 // Screen
-import AddScreen from './components/Main/Add'
+import AddScreen from './components/main/Add'
 
 const store = createStore(rootReducer, applyMiddleware(thunk))
 
