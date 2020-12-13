@@ -17,16 +17,23 @@ Installs
 ## Resource's
 First we are going to clone IG then build in the features 
 
+The video playlist that I'm Following to get started. 
 https://www.youtube.com/playlist?list=PLxabZQCAe5fgatwOQny9wKJVs4YD6xkf1
-
 https://github.com/SimCoderYoutube/InstagramClone/blob/lesson_5/using_camera_and_gallery_with_react_native/App.js
 
+What Styles for MVP
+
+Prototype 
+https://www.figma.com/proto/jjP75mNx3Z0TLkHPpEdwLk/Cobler-Art-App?node-id=98%3A107&scaling=scale-down
+
+Design Assests
+https://www.figma.com/file/jjP75mNx3Z0TLkHPpEdwLk/Cobler-Art-App?node-id=2%3A47
 
 
 # Minimum Viable Product features we are working on. 
 
 ## Profile Features:
--  [X] User Authentication
+- [X] User Authentication
 - [X] Register
 - [x] Login
 - [ ] Logout
