@@ -6,13 +6,20 @@ We are building an artist first platform, that allows artist to showcase there w
 This project will be made using react native, firebase firestore, firebase storage, redux, expo along with others that might need to be added. 
 To be hosted on the IOS APP Store and Google Play Store. 
 
-# Getting Setup
+## Getting Setup
 
 Installs
 
 - node.js
 - npm i
 - npm i expo
+
+## Resource's
+First we are going to clone IG then build in the features 
+
+https://www.youtube.com/playlist?list=PLxabZQCAe5fgatwOQny9wKJVs4YD6xkf1
+
+https://github.com/SimCoderYoutube/InstagramClone/blob/lesson_5/using_camera_and_gallery_with_react_native/App.js
 
 
 
