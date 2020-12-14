@@ -14,9 +14,9 @@ import { event } from 'react-native-reanimated';
 // import AddScreen from './components/main/Add'
 
 
-// const EmptyScreen = () =>{
-//     return(null)
-// }
+const EmptyScreen = () =>{
+    return(null)
+}
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -33,7 +33,7 @@ export class Main extends Component {
                       size = {26} />
                   )
               }} />
-                               <Tab.Screen name="AddScreen" component={AddScreen}
+          <Tab.Screen name="AddContainer" component={EmptyScreen}
                     listeners={({ navigation }) => ({
                         tabPress: event => {
                             event.preventDefault();
@@ -41,8 +41,8 @@ export class Main extends Component {
                         }
                     })}
                     options={{
-                        tabBarIcon: ({ colour, size }) => (
-                            <MaterialCommunityIcons name="format-paint" colour={colour} size={26} />
+                        tabBarIcon: ({ color, size }) => (
+                            <MaterialCommunityIcons name="plus-box" color={color} size={26} />
                         ),
                     }} />
                  <Tab.Screen name="Profile" component={ProfileScreen} options={{

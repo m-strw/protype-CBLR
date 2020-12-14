@@ -26,7 +26,7 @@ const store = createStore(rootReducer, applyMiddleware(thunk))
 import * as firebase from 'firebase'
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-const firebaseConfig = process.env.apiKey;
+// const firebaseConfig = process.env.apiKey;
 
 // import firebaseConfig from './'
 // for production use ennvirment variables
@@ -89,7 +89,6 @@ export class App extends Component {
           <Stack.Navigator initialRouteName="Main">
             <Stack.Screen name="Main" component={ MainScreen } options={{ headerShown: false }} />
             <Stack.Screen name="Add" component={AddScreen} />
-
           </Stack.Navigator>
         </NavigationContainer>
 
