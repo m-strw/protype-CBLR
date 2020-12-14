@@ -26,11 +26,20 @@ const store = createStore(rootReducer, applyMiddleware(thunk))
 import * as firebase from 'firebase'
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-const firebaseConfig = process.env.apiKey;
+// const firebaseConfig = process.env.apiKey;
 
 // import firebaseConfig from './'
 // for production use ennvirment variables
-
+const firebaseConfig = {
+  apiKey: "AIzaSyD15ryfnhRk-XmGy97ST8QeSDsHQLSZN1E",
+  authDomain: "instagram-dev-b3430.firebaseapp.com",
+  databaseURL: "https://instagram-dev-b3430.firebaseio.com",
+  projectId: "instagram-dev-b3430",
+  storageBucket: "instagram-dev-b3430.appspot.com",
+  messagingSenderId: "830735457757",
+  appId: "1:830735457757:web:17aa2c73368adf7ab8aa34",
+  measurementId: "G-ZY1HKC7QX9"
+}
 
 if (firebase.apps.length === 0) {
   firebase.initializeApp(firebaseConfig)
